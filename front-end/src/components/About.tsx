@@ -1,5 +1,4 @@
 import { Statistics } from "./Statistics";
-import pilot from "../assets/pilot.png";
 import icon from "@/assets/icono-head.png";
 
 export const About = () => {
