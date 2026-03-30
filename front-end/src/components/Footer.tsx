@@ -38,6 +38,16 @@ export const Footer = () => {
               Facebook
             </a>
           </div>
+
+          <div>
+            <a
+              rel="noreferrer noopener"
+              href="https://www.tiktok.com/@flordemexicocomitan"
+              className="opacity-60 hover:opacity-100"
+            >
+              TikTok
+            </a>
+          </div>
         </div>
 
         <div className="flex flex-col gap-2">
