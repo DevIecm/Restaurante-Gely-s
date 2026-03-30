@@ -1,4 +1,4 @@
-import { LogoIcon } from "./Icons";
+import icon from "@/assets/icono-head.png";
 
 export const Footer = () => {
   return (
@@ -12,79 +12,36 @@ export const Footer = () => {
             href="/"
             className="font-bold text-xl flex"
           >
-            <LogoIcon />
-            ShadcnUI/React
+            <img src={icon} alt="Logo" className="w-9 h-11 mr-2" />
+            Panadería y Pastelería la Flor de México
           </a>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Follow US</h3>
+          <h3 className="font-bold text-lg">Social</h3>
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://www.instagram.com/flordemexico_/"
               className="opacity-60 hover:opacity-100"
             >
-              Github
+              Instagram
             </a>
           </div>
 
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://www.facebook.com/panaderiaypastelerialaflordemexico/?locale=es_LA"
               className="opacity-60 hover:opacity-100"
             >
-              Twitter
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Dribbble
+              Facebook
             </a>
           </div>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Platforms</h3>
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Web
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Mobile
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Desktop
-            </a>
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">About</h3>
+          <h3 className="font-bold text-lg">Acerca de Nosotros</h3>
           <div>
             <a
               rel="noreferrer noopener"
@@ -117,7 +74,7 @@ export const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Community</h3>
+          <h3 className="font-bold text-lg">Comunidad</h3>
           <div>
             <a
               rel="noreferrer noopener"
@@ -125,26 +82,6 @@ export const Footer = () => {
               className="opacity-60 hover:opacity-100"
             >
               Youtube
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Discord
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Twitch
             </a>
           </div>
         </div>

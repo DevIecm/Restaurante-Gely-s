@@ -1,6 +1,7 @@
 import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { MagnifierIcon, WalletIcon, ChartIcon } from "./Icons";
 import cubeLeg from "../assets/cube-leg.png";
+import icon from "@/assets/icono-head.png";
 
 interface ServiceProps {
   title: string;
@@ -31,20 +32,14 @@ const serviceList: ServiceProps[] = [
 
 export const Services = () => {
   return (
-    <section className="container py-24 sm:py-32">
+    <section id="contacto" className="container py-24 sm:py-32">
       <div className="grid lg:grid-cols-[1fr,1fr] gap-8 place-items-center">
         <div>
-          <h2 className="text-3xl md:text-4xl font-bold">
+          <h2 className="text-3xl md:text-4xl font-bold mb-8">
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              Client-Centric{" "}
+              Contactanos
             </span>
-            Services
           </h2>
-
-          <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-            dolor.
-          </p>
 
           <div className="flex flex-col gap-8">
             {serviceList.map(({ icon, title, description }: ServiceProps) => (
@@ -66,7 +61,7 @@ export const Services = () => {
         </div>
 
         <img
-          src={cubeLeg}
+          src={icon}
           className="w-[300px] md:w-[500px] lg:w-[600px] object-contain"
           alt="About services"
         />
