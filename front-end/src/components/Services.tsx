@@ -1,6 +1,6 @@
 import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
-import { MagnifierIcon, WalletIcon, ChartIcon } from "./Icons";
 import icon from "@/assets/icono-head.png";
+import { MailIcon, MapPinIcon, PhoneIcon } from "lucide-react";
 
 interface ServiceProps {
   title: string;
@@ -10,22 +10,22 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Code Collaboration",
+    title: "Correo Electrónico",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    icon: <ChartIcon />,
+      "Escríbenos para pedidos especiales, cotizaciones o cualquier duda: contacto@tupanaderia.com",
+    icon: <MailIcon />,
   },
   {
-    title: "Project Management",
+    title: "Teléfono / WhatsApp",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    icon: <WalletIcon />,
+      "Haz tu pedido rápido o consulta disponibilidad al +52 55 1234 5678. ¡Te atendemos con gusto!",
+    icon: <PhoneIcon />,
   },
   {
-    title: "Task Automation",
+    title: "Dirección",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    icon: <MagnifierIcon />,
+      "Visítanos en Av. Principal #123, Col. Centro. Abierto todos los días de 7:00 am a 9:00 pm.",
+    icon: <MapPinIcon />,
   },
 ];
 

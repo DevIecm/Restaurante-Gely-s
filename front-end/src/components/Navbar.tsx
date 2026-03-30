@@ -30,10 +30,6 @@ const routeList: RouteProps[] = [
   },
   {
     href: "#sponsors",
-    label: "Proveedores",
-  },
-  {
-    href: "#acerca",
     label: "Acerca de Nosotros",
   },
   {
@@ -41,7 +37,7 @@ const routeList: RouteProps[] = [
     label: "Nuestros Servicios",
   },
   {
-    href: "#testimonials",
+    href: "#sucursales",
     label: "Sucursales",
   },
   {
@@ -62,8 +58,7 @@ export const Navbar = () => {
               href="/"
               className="ml-2 font-bold text-xl flex"
             >
-                            <img src={icon} alt="Logo" className="w-12 h-12 mr-2" />
-
+              <img src={icon} alt="Logo" className="w-12 h-12 mr-2" />
             </a>
           </NavigationMenuItem>
 
